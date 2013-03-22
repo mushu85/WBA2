@@ -1,0 +1,20 @@
+{
+    "group": [
+        {
+            "person": [
+                {
+                    "@attributes": {
+                        "leader": "false"
+                    },
+                    "fName": "Hans",
+                    "lName": "Dieter",
+                    "mail": "test@online.de",
+                    "date": "15.06.1860",
+                    "exp": "Profi",
+                    "drum": "vorhanden"
+                }
+            ],
+            "comment": ""
+        }
+    ]
+}

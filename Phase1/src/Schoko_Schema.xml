@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="rezept">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="title" type="xs:string" />
+
+				<xs:element name="pictures">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="pic"> <!-- user & url als Attribute für pic verwendbar -->
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="user" type="xs:string" />
+										<xs:element name="url" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="zutaten">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="zutat" type="xs:string">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="amount" type="xs:string" />
+										<xs:element name="name" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="portion" type="xs:integer" />
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="zubereitung">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="workload" type="xs:time" format="hh:mm" />
+							<xs:element name="dificult" type="xs:string" />
+							<xs:element name="kcal" type="xs:string" />
+							<xs:element name="description" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="comments">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="comment">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="user" type="xs:string" />
+										<xs:element name="date" type="xs:time" format="hh:mm" />
+										<xs:element name="content" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

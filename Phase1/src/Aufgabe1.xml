@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Anmeldung>
+	<group>
+		<person leader="boolean">
+			<fName></fName>
+			<lName></lName>
+			<mail></mail>
+			<date></date>
+			<exp></exp>
+			<drum></drum>
+		</person>
+		<comment></comment>
+	</group>
+</Anmeldung>
+
+
+Beispieldaten:
+<Anmeldung>
+	<group>
+		<person leader="false">
+			<fName>Hans</fName>
+			<lName>Dieter</lName>
+			<mail>test@online.de</mail>
+			<date>15.06.1860</date>
+			<exp>Profi</exp>
+			<drum>vorhanden</drum>
+		</person>
+		<comment></comment>
+	</group>
+</Anmeldung>

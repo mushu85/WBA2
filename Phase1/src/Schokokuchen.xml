@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezept>
+	<title>Lenchen's Schokokuchen</title>
+	<pictures>
+		<pic>
+			<user></user>
+			<url></url>
+		</pic>
+	</pictures>
+	<zutaten portion="integer">
+		<zutat>
+			<amount></amount>
+			<name></name>
+		</zutat>
+	</zutaten>
+	<zubereitung>
+		<workload></workload>
+		<dificult></dificult>
+		<kcal></kcal>
+		<description></description>
+	</zubereitung>
+	<comments>
+		<comment>
+			<user></user>
+			<date></date>
+			<content></content>
+		</comment>
+	</comments>
+</rezept>
