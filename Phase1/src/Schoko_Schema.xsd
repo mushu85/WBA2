@@ -24,7 +24,7 @@
 				<xs:element name="zutaten">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="zutat" type="xs:string">
+							<xs:element name="zutat">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="amount" type="xs:string" />
@@ -40,7 +40,7 @@
 				<xs:element name="zubereitung">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="workload" type="xs:time" format="hh:mm" />
+							<xs:element name="workload" type="xs:time" />
 							<xs:element name="dificult" type="xs:string" />
 							<xs:element name="kcal" type="xs:string" />
 							<xs:element name="description" type="xs:string" />
@@ -55,7 +55,7 @@
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="user" type="xs:string" />
-										<xs:element name="date" type="xs:time" format="hh:mm" />
+										<xs:element name="date" type="xs:time" />
 										<xs:element name="content" type="xs:string" />
 									</xs:sequence>
 								</xs:complexType>
