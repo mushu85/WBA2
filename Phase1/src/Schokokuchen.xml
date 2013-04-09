@@ -1,29 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rezept>
-	<title>Lenchen's Schokokuchen</title>
-	<pictures>
-		<pic>
-			<user></user>
-			<url></url>
-		</pic>
-	</pictures>
-	<zutaten portion="integer">
-		<zutat>
-			<amount></amount>
-			<name></name>
-		</zutat>
-	</zutaten>
-	<zubereitung>
-		<workload></workload>
-		<dificult></dificult>
-		<kcal></kcal>
-		<description></description>
-	</zubereitung>
-	<comments>
-		<comment>
-			<user></user>
-			<date></date>
-			<content></content>
-		</comment>
-	</comments>
-</rezept>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kochbuch>
+	<rezept id="1">
+		<title>Lenchen's Schokokuchen</title>
+		<pictures>
+			<pic>
+				<user>Lenchen   </user>
+				<url>img/lenchen.png</url>
+			</pic>
+			<pic>
+				<user>quacksalber</user>
+				<url>img/qucksalber.png</url>
+			</pic>
+		</pictures>
+		<zutaten portion="16">
+			<zutat>
+				<amount>200</amount>
+				<unit>g</unit>
+				<name>Butter</name>
+			</zutat>
+			<zutat>
+				<amount>200</amount>
+				<unit>g</unit>
+				<name>Zucker</name>
+			</zutat>
+			<zutat>
+				<amount>200</amount>
+				<unit>g</unit>
+				<name>Schokolade</name>
+			</zutat>
+			<zutat>
+				<amount>120</amount>
+				<unit>g</unit>
+				<name>Mehl</name>
+			</zutat>
+			<zutat>
+				<amount>0.5</amount>
+				<unit>TL</unit>
+				<name>Backpulver</name>
+			</zutat>
+			<zutat>
+				<amount>1</amount>
+				<unit>Pck</unit>
+				<name>Vanillezucker</name>
+			</zutat>
+			<zutat>
+				<amount>4</amount>
+				<unit>Stck</unit>
+				<name>Ei(er)</name>
+			</zutat>
+		</zutaten>
+		<zubereitung>
+			<workload>60</workload>
+			<workloadUnit>Min</workloadUnit>
+			<dificult>normal</dificult>
+			<kcal>0</kcal>
+			<description>
+Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen.
+Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen
+und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die
+steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben.
+Bei 180°Grad 40 – 50 Minuten backen.
+			</description>
+		</zubereitung>
+		<comments>
+			<comment>
+				<user>
+					<username>HansWurst </username>
+					<avatar>img/user.png</avatar>
+				</user>
+				<date>07.02.2002 18:49 Uhr</date>
+				<content>Pustekuchen</content>
+			</comment>
+			<comment>
+				<user>
+					<username>EkmekBoldum</username>
+					<avatar>img/user.png</avatar>
+				</user>
+				<date>07.01.2003 15:06 Uhr</date>
+				<content>Ordinär</content>
+			</comment>
+		</comments>
+	</rezept>
+
+	<rezept id="2">
+		<title>Lenchen's Zitronenkuchen</title>
+		<pictures>
+			<pic>
+				<user>Lenchen   </user>
+				<url>img/lenchen.png</url>
+			</pic>
+			<pic>
+				<user>quacksalber</user>
+				<url>img/qucksalber.png</url>
+			</pic>
+		</pictures>
+		<zutaten portion="16">
+			<zutat>
+				<amount>200</amount>
+				<unit>g</unit>
+				<name>Butter</name>
+			</zutat>
+			<zutat>
+				<amount>200</amount>
+				<unit>g</unit>
+				<name>Zucker</name>
+			</zutat>
+			<zutat>
+				<amount>200</amount>
+				<unit>g</unit>
+				<name>Zitronen</name>
+			</zutat>
+			<zutat>
+				<amount>120</amount>
+				<unit>g</unit>
+				<name>Mehl</name>
+			</zutat>
+			<zutat>
+				<amount>0.5</amount>
+				<unit>TL</unit>
+				<name>Backpulver</name>
+			</zutat>
+			<zutat>
+				<amount>1</amount>
+				<unit>Pck</unit>
+				<name>Vanillezucker</name>
+			</zutat>
+			<zutat>
+				<amount>4</amount>
+				<unit>Stck</unit>
+				<name>Ei(er)</name>
+			</zutat>
+		</zutaten>
+		<zubereitung>
+			<workload>60</workload>
+			<workloadUnit>Min</workloadUnit>
+			<dificult>normal</dificult>
+			<kcal>0</kcal>
+			<description>
+Butter und Zitronen im Wasserbad erwärmen. Eier trennen. Eiweiß steif schlagen.
+Eigelbe, Zucker und Vanillezucker verrühren. Erwärmte Butter und Zitronen hinzufügen
+und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße
+vorsichtig unterheben. In eine gut gefettete Form geben.
+Bei 180°Grad 40 – 50 Minuten backen.
+			</description>
+		</zubereitung>
+		<comments>
+			<comment>
+				<user>
+					<username>HansWurst </username>
+					<avatar>img/user.png</avatar>
+				</user>
+				<date>07.02.2002 18:49 Uhr</date>
+				<content>Pustekuchen</content>
+			</comment>
+			<comment>
+				<user>
+					<username>EkmekBoldum</username>
+					<avatar>img/user.png</avatar>
+				</user>
+				<date>07.01.2003 15:06 Uhr</date>
+				<content>Ordinär</content>
+			</comment>
+		</comments>
+	</rezept>
+	
+</kochbuch>
