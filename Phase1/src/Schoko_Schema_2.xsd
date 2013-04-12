@@ -82,7 +82,7 @@
 							</xs:element>
 						
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" />
 					</xs:complexType>
 				</xs:element>
 			

@@ -1,5 +1,16 @@
 WBA2
-====
+================================
+
+Phase 1. --Einzelarbeit--
+Doku wurde im Git-Wiki erstellt
+
+================================
+
+Phase 2.
+
 Teammitglieder:
-xy
-yx
+
+1.) Julian Schöbel
+2.) Edgar Gellert
+
+================================
