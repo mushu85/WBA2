@@ -10,7 +10,7 @@ Phase 2.
 
 Teammitglieder:  
 
-1.) Julian Schöbel  
+1.) Julian SchÃ¶bel  
 2.) Edgar Gellert  
 
 ================================
